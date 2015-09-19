@@ -1,0 +1,33 @@
+{
+  "name": "gish",
+  "version": "1.0.0",
+  "bin": "./bin.js",
+  "description": "Git-style file and directory hashing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.0",
+    "coffee-script": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgentle/gish.git"
+  },
+  "keywords": [
+    "Git",
+    "hash",
+    "merkle"
+  ],
+  "author": "Sam Gentle <sam@samgentle.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgentle/gish/issues"
+  },
+  "homepage": "https://github.com/sgentle/gish"
+}
