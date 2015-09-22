@@ -108,7 +108,7 @@ The first part is the file mode + some extra git bits indicating whether it's a
 file, directory or symlink. Then comes the filename terminated with a NUL, then
 the hash as binary data.
 
-Git only supports mode 644 or 755, so we only support mode 644 or 655.
+Git only supports mode 644 or 755, so we only support mode 644 or 755.
 
     MODES =
       file: 0b1000 << 12 | 0o644
